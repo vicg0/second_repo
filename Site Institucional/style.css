@@ -1,0 +1,35 @@
+body {
+ margin: 0;
+}
+
+.header {
+ background-color: black;
+
+ border-bottom: 3px solid aqua;
+}
+
+.header .container {
+ margin: auto;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.header h1 {
+ color: aqua;
+}
+
+.header .container ul {
+ width: 400px;
+
+ display: flex;
+ justify-content: space-between;
+
+ list-style: none;
+ color: goldenrod;
+}
+
+.header ul li a {
+ color: goldenrod;
+ text-decoration: none;
+}
